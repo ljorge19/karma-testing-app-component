@@ -4,18 +4,8 @@ import {
     Routes
 } from '@angular/router';
 
-import { FormListComponent } from './components/form-list/form-list.component';
-import { FormViewerComponent } from './components/form-viewer/form-viewer.component';
 
 const appRoutes: Routes = [
-    {
-        path: 'forms',
-        component: FormListComponent
-    },
-    {
-        path: 'form/:id',
-        component: FormViewerComponent
-    },
     {
         path: '',
         pathMatch: 'full',
